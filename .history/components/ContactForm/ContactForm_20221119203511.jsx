@@ -54,11 +54,8 @@ const ContactForm = () => {
   //   messageReset("");
   // };
 
-  if (state.succeeded) {
-    return <div className="text-center mt-24 mr-40 3bp:mt-0 3bp:mr-0">
-      <p className="text-5xl">📨</p>
-      <p className="text">Thank you!</p>
-      </div>;
+  if (!state.succeeded) {
+    return <p className="text-5xl mt-30 mr-48">📨</p>;
   }
 
   return (

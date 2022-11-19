@@ -8,7 +8,7 @@ const techs = [
   "NEXT.js",
   "Git",
   "GraphQL",
-  "Headless CMS",
+  "CMS",
   "Jest/Cypress",
   "Storybook",
 ];

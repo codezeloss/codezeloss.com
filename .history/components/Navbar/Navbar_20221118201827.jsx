@@ -25,7 +25,7 @@ const Navbar = () => {
             alt="Frontend Mentor"
           />
         </Link>
-        <Link href="https://www.linkedin.com/in/codezeloss/" target="_blank">
+        <Link href="www.linkedin.com/in/codezeloss" target="_blank">
           <Image
             className="w-[24px] h-[24px]"
             src={linkedinIcon}

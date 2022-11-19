@@ -66,7 +66,7 @@ export const data = [
       tech2: "CSS",
       tech3: "SCSS",
     },
-    live_url: "https://codezeloss.github.io/art-gallery-website/",
+    live_url: "https://elosscode.github.io/art-gallery-website/",
     code_url: "https://github.com/elosscode/art-gallery-website.git",
   },
   {
@@ -78,7 +78,7 @@ export const data = [
       tech2: "CSS",
       tech3: "SCSS",
     },
-    live_url: "https://codezeloss.github.io/Officelite/",
+    live_url: "https://elosscode.github.io/Officelite/",
     code_url: "https://github.com/elosscode/Officelite.git",
   },
 ];

@@ -15,16 +15,16 @@ export default function Home() {
       </Head>
 
       <header>
-        <Navbar />
-        <Hero />
+        <Navbar/>
+        <Hero/>
       </header>
 
       <main>
-        <Skills />
-        <Projects />
+        <Skills/>
+        <Projects/>
       </main>
 
-      <Footer />
+      <Footer/>
     </div>
   );
 }

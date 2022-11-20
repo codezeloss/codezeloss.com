@@ -7,9 +7,9 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center mt-10 7bp:flex-col 7bp:mt-5 7bp:gap-4">
+    <nav className="flex justify-between items-center mt-10 7bp:flex-col 7bp:gap-7 7bp:mt-5">
       <div>
-        <p className="font-space-grotesk font-bold text-3xl tracking-[-0.44px]">
+        <p className="font-space-grotesk font-bold text-3xl tracking-[-0.44px] ">
           codezeloss
         </p>
       </div>
@@ -18,10 +18,7 @@ const Navbar = () => {
         <Link href="https://github.com/codezeloss" target="_blank">
           <Image className="w-[24px] h-[24px]" src={githubIcon} alt="Github" />
         </Link>
-        <Link
-          href="https://www.frontendmentor.io/profile/elosscode"
-          target="_blank"
-        >
+        <Link href="https://www.frontendmentor.io/profile/elosscode" target="_blank">
           <Image
             className="w-[24px] h-[22px]"
             src={fmIcon}

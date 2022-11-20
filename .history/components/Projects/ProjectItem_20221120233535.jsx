@@ -8,7 +8,7 @@ const btnClassesSm = "uppercase text-[#000] font-space-grotesk font-bold text-ba
 const ProjectItem = ({ src, title, techs, preview, code }) => {
   return (
     <div className="font-space-grotesk uppercase 6bp:w-[375px] 6bp:mx-auto 8bp:w-[100%]">
-      <div className="object-cover relative w-[100%] max-h-[450px] h-[450px] mb-5 hover:border-2 hover:border-[#4EE1A0] 1bp:h-[350px] 3bp:h-[330px] 3bp:hover:border-0 4bp:h-[300px] 5bp:h-[250px] 6bp:h-[260px] 6bp:mx-auto 9bp:h-[230px]">
+      <div className="object-cover relative w-[100%] max-h-[450px] h-[450px] mb-5 hover:border-2 hover:border-[#4EE1A0] 1bp:h-[350px] 3bp:h-[330px] 3bp:hover:border-0 4bp:h-[300px] 5bp:h-[250px] 6bp:h-[250px] 6bp:mx-auto">
         <Image
           className="absolute w-[100%] h-[100%] z-[5]"
           src={src}

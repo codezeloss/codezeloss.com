@@ -40,7 +40,7 @@ a {
     @apply font-space-grotesk text-lg font-medium;
   }
   .inputClass {
-    @apply outline-none w-[445px] border-b-[1px] border-b-[#0d101180] pb-4 bg-[transparent] 7bp:w-[345px] 9bp:w-[330px];
+    @apply outline-none w-[445px] border-b-[1px] border-b-[#0d101180] pb-4 bg-[transparent] 7bp:w-[345px] px-[1.8rem];
   }
   .error-message {
     @apply font-space-grotesk font-bold text-xs text-bright-red;

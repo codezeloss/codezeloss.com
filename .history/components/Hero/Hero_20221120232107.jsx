@@ -29,9 +29,9 @@ const Hero = () => {
             alt="Codezeloss"
             priority
           />
-          <div className="absolute w-fit h-fit bottom-[20px] right-[300px] z-[-5] 7bp:right-[170px]">
+          <div className="absolute w-fit h-fit bottom-[20px] right-[300px] z-[-5] 7bp:right-[220px]">
             <Image
-              className="rounded-full min-w-[129px] min-h-[129px] 7bp:min-w-[80px] 7bp:min-h-[80px]"
+              className="rounded-full min-w-[129px] min-h-[129px] 7bp:min-w-[129px] min-h-[129px]"
               src={circle}
               alt="Rings"
             />

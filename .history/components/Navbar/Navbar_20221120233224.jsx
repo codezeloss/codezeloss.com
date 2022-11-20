@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center mt-10 7bp:flex-col 7bp:mt-5 7bp:gap-4">
+    <nav className="flex justify-between items-center mt-10 7bp:flex-col 7bp:gap-7 7bp:mt-5 7bp:gap-4">
       <div>
         <p className="font-space-grotesk font-bold text-3xl tracking-[-0.44px]">
           codezeloss

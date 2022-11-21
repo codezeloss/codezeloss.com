@@ -24,14 +24,14 @@ const Hero = () => {
       <div className="absolute right-0 z-[-1] 3bp:relative">
         <div className="relative w-fit h-fit">
           <Image
-            className="rounded-full w-[445px] h-[445px] z-[-1] 7bp:w-[245px] 7bp:h-[245px]"
+            className="rounded-full min-w-[445px] w-[445px] min-h-[445px] h-[445px] z-[-1] 7bp:w-[245px] 7bp:min-w-[245px] 7bp:min-h-[245px] 7bp:h-[245px]"
             src={codezeloss}
             alt="Codezeloss"
             priority
           />
           <div className="absolute w-fit h-fit bottom-[20px] right-[300px] z-[-5] 7bp:right-[170px]">
             <Image
-              className="rounded-full w-32 h-32 7bp:w-20 7bp:h-20"
+              className="rounded-full min-w-[129px] min-h-[129px] 7bp:min-w-[80px] 7bp:min-h-[80px]"
               src={circle}
               alt="Rings"
             />

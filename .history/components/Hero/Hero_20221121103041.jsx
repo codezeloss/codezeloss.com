@@ -31,7 +31,7 @@ const Hero = () => {
           />
           <div className="absolute w-fit h-fit bottom-[20px] right-[300px] z-[-5] 7bp:right-[170px]">
             <Image
-              className="rounded-full w-32 h-32 7bp:w-20 7bp:h-20"
+              className="rounded-full w-[129px] h-[129px] 7bp:min-w-[80px] 7bp:min-h-[80px]"
               src={circle}
               alt="Rings"
             />

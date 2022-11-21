@@ -10,6 +10,7 @@ const Projects = () => {
         <Button text="Contact me" />
       </div>
 
+      {/* Projects list */}
       <div className="grid grid-cols-2 gap-x-8 gap-y-16 6bp:grid-cols-1 6bp:mx-auto">
         {data.map(project => (
           <ProjectItem

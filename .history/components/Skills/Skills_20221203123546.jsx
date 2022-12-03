@@ -23,7 +23,3 @@ const Skills = () => {
 
 export default Skills;
 
-
-// "GraphQL",
-// "Headless CMS",
-// "Testing",

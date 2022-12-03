@@ -1,11 +1,11 @@
 const techs = [
-  "HTML/CSS",
+  "HTML & CSS",
   "SASS",
-  "Tailwindcss",
-  "Javascript",
-  "Typescript",
-  "React.js/Redux",
-  "Next.js",
+  "Tailwind CSS",
+  "JavaScript",
+  "TypeScript",
+  "Reactjs",
+  "Nextjs",
   "Git",
 ];
 

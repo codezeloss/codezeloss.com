@@ -1,7 +1,7 @@
 const techs = [
   "HTML/CSS",
   "SASS",
-  "Tailwindcss",
+  "Tailwind CSS",
   "Javascript",
   "Typescript",
   "React.js/Redux",

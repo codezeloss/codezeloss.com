@@ -4,7 +4,7 @@ const techs = [
   "Tailwindcss",
   "Javascript",
   "Typescript",
-  "React.js/Redux",
+  "React.js / Redux",
   "Next.js",
   "Git",
 ];

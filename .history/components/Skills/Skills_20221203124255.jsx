@@ -1,12 +1,12 @@
 const techs = [
-  "HTML/CSS",
+  "HTML & CSS",
   "SASS",
-  "Tailwindcss",
+  "Tailwind CSS",
   "Javascript",
   "Typescript",
-  "React.js/Redux",
-  "Next.js",
-  "Git",
+  "Reactjs",
+  "Nextjs",
+  "Git/GitHub",
 ];
 
 const Skills = () => {

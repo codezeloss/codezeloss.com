@@ -25,7 +25,7 @@ export const data = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: "/assets/images/planetsfacts-preview.jpg",
     title: "Planets Facts website",
     techs: {
@@ -37,7 +37,7 @@ export const data = [
     code_url: "https://github.com/elosscode/planets-fact-site.git",
   },
   {
-    id: 4,
+    id: 3,
     image: "/assets/images/payapi-preview.jpg",
     title: "Payapi website",
     techs: {

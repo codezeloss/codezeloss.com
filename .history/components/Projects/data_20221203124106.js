@@ -23,7 +23,18 @@ export const data = [
     live_url: "https://aesthetic-maamoul-737009.netlify.app/",
     code_url: "https://github.com/elosscode/github-user-search-app.git",
   },
-
+  {
+    id: 2,
+    image: "/assets/images/payapi-preview.jpg",
+    title: "Payapi website",
+    techs: {
+      tech1: "Typescript",
+      tech2: "Next.js",
+      tech3: "Tailwindcss",
+    },
+    live_url: "https://payapi-multi-page-website-mu.vercel.app/",
+    code_url: "https://github.com/elosscode/payapi-multi-page-website.git",
+  },
   {
     id: 3,
     image: "/assets/images/planetsfacts-preview.jpg",
@@ -38,18 +49,6 @@ export const data = [
   },
   {
     id: 4,
-    image: "/assets/images/payapi-preview.jpg",
-    title: "Payapi website",
-    techs: {
-      tech1: "Typescript",
-      tech2: "Next.js",
-      tech3: "Tailwindcss",
-    },
-    live_url: "https://payapi-multi-page-website-mu.vercel.app/",
-    code_url: "https://github.com/elosscode/payapi-multi-page-website.git",
-  },
-  {
-    id: 5,
     image: "/assets/images/miniportfolio-preview.jpg",
     title: "Miniportfolio website",
     techs: {

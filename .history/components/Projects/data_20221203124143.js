@@ -23,21 +23,8 @@ export const data = [
     live_url: "https://aesthetic-maamoul-737009.netlify.app/",
     code_url: "https://github.com/elosscode/github-user-search-app.git",
   },
-
   {
     id: 3,
-    image: "/assets/images/planetsfacts-preview.jpg",
-    title: "Planets Facts website",
-    techs: {
-      tech1: "Typescript",
-      tech2: "Next.js",
-      tech3: "Tailwindcss",
-    },
-    live_url: "https://planets-fact-site-pi.vercel.app/",
-    code_url: "https://github.com/elosscode/planets-fact-site.git",
-  },
-  {
-    id: 4,
     image: "/assets/images/payapi-preview.jpg",
     title: "Payapi website",
     techs: {

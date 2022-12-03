@@ -37,7 +37,7 @@ export const data = [
     code_url: "https://github.com/elosscode/planets-fact-site.git",
   },
   {
-    id: 4,
+    id: 3,
     image: "/assets/images/payapi-preview.jpg",
     title: "Payapi website",
     techs: {

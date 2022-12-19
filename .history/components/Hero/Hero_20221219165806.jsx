@@ -12,7 +12,7 @@ const Hero = () => {
           Hey There 👋!
           <br /> I&apos;m <span className="underline">Elhoussaine</span>.
         </h1>
-        <p className="max-w-[50%] text mb-16 2bp:mb-8 3bp:max-w-[600px]">
+        <p className="max-w-[50%] text mb-16 2bp:mb-8 3bp:max-w-[650px]">
           I&apos;m a{" "}
           <span className="font-bold text-xl">React Frontend developer,</span> I
           convert designs & ideas to code. React/Nextjs are the tools I love to

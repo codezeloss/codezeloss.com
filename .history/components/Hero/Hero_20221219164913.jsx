@@ -12,12 +12,12 @@ const Hero = () => {
           Hey There 👋!
           <br /> I&apos;m <span className="underline">Elhoussaine</span>.
         </h1>
-        <p className="max-w-[50%] text mb-16 2bp:mb-8 3bp:max-w-[600px]">
+        <p className="max-w-[50%] text mb-16 2bp:mb-8 3bp:max-w-[500px]">
           I&apos;m a{" "}
           <span className="font-bold text-xl">React Frontend developer,</span> I
           convert designs & ideas to code. React/Nextjs are the tools I love to
           work with. I code responsive websites/apps from scratch and contribute
-          to existing projects. Usable, enjoyable, and accessible User
+          to existing projects. <u>Usable</u>, <u>enjoyable</u>, and <u>accessible</u> User
           Interfaces are the motivation and the goals I work towards achieving
           every day.
         </p>

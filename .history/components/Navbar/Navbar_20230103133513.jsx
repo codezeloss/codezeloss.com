@@ -18,16 +18,6 @@ const Navbar = () => {
         <Link href="https://github.com/codezeloss" target="_blank">
           <Image className="w-[24px] h-[24px]" src={githubIcon} alt="Github" />
         </Link>
-        {/* <Link
-          href="https://www.frontendmentor.io/profile/elosscode"
-          target="_blank"
-        >
-          <Image
-            className="w-[24px] h-[22px]"
-            src={fmIcon}
-            alt="Frontend Mentor"
-          />
-        </Link> */}
         <Link href="https://www.linkedin.com/in/codezeloss/" target="_blank">
           <Image
             className="w-[24px] h-[24px]"

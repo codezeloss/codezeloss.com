@@ -14,6 +14,21 @@ const Navbar = () => {
         </p>
       </div>
 
+      <div className="flex items-center gap-7 text 3bp:hidden">
+        <Link className="hover:font-semibold" href="#skills">
+          Skills
+        </Link>
+        <Link className="hover:font-semibold" href="#projects">
+          Projects
+        </Link>
+        <Link className="hover:font-semibold" href="#about-me">
+          About Me
+        </Link>
+        <Link className="hover:font-semibold" href="#contact">
+          Contact
+        </Link>
+      </div>
+
       <div className="flex gap-8 items-center">
         <Link href="https://github.com/codezeloss" target="_blank">
           <Image className="w-[24px] h-[24px]" src={githubIcon} alt="Github" />

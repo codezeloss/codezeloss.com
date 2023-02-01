@@ -9,11 +9,8 @@ import ContactForm from "../ContactForm/ContactForm";
 
 const Footer = () => {
   return (
-    <footer>
-      <div
-        id="contact"
-        className="flex justify-between gap-12 mb-24 3bp:flex-col 3bp:items-center"
-      >
+    <footer id="contact" className="pt-12 3bp:pt-0">
+      <div className="flex justify-between gap-12 mb-24 3bp:flex-col 3bp:items-center">
         <div className="max-w-[445px] 3bp:max-w-[545px] 3bp:text-center">
           <h1 className="mb-9">Contact</h1>
           <p className="text">
@@ -27,7 +24,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="border-t-[1px] mb-24 2bp:mb-10">
+      <div className="border-t-[1px] mb-24 2bp:mb-10 pt-12">
         <Navbar />
       </div>
     </footer>

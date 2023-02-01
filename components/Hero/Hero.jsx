@@ -1,25 +1,22 @@
 import Image from "next/image";
 import Button from "../Button/Button";
-import codezeloss from "/public/assets/images/codezeloss.jpg";
+import codezeloss from "/public/assets/images/main-picture.jpg";
 import rings from "/public/assets/images/pattern-rings.svg";
 import circle from "/public/assets/images/pattern-circle.svg";
 
 const Hero = () => {
   return (
-    <section className="relative flex justify-between items-center mt-32 3bp:mt-20 3bp:flex-col-reverse 3bp:gap-12 7bp:mt-12">
+    <section
+      id="hero"
+      className="relative flex justify-between items-center mt-32 3bp:mt-20 3bp:flex-col-reverse 3bp:gap-12 7bp:mt-12"
+    >
       <div className="flex flex-col 3bp:items-center 3bp:text-center">
-        <h1 className="max-w-[706px] mb-11 3bp:max-w-max">
-          Hey There 👋!
+        <h1 className="max-w-[706px] mb-4 3bp:max-w-max">
+          Hi There 👋!
           <br /> I&apos;m <span className="underline">Elhoussaine</span>.
         </h1>
-        <p className="max-w-[50%] text mb-16 2bp:mb-8 3bp:max-w-[600px]">
-          I&apos;m a{" "}
-          <span className="font-bold text-xl">React Frontend developer,</span> I
-          convert designs & ideas to code. React/Nextjs are the tools I love to
-          work with. I code responsive websites/apps from scratch and contribute
-          to existing projects. Usable, enjoyable, and accessible User
-          Interfaces are the motivation and the goals I work towards achieving
-          every day.
+        <p className="max-w-[50%] text text-2xl mb-16 2bp:mb-8 3bp:max-w-[600px]">
+          Frontend Developer
         </p>
         <Button text="Contact me" />
       </div>

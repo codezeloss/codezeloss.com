@@ -24,9 +24,6 @@ a {
 }
 
 @layer components {
-  body {
-    @apply bg-[#4ee19f12];
-  }
   h1 {
     @apply font-space-grotesk text-[88px] leading-[88px] tracking-[-2.5px] font-bold 2bp:text-7xl 6bp:text-5xl 9bp:text-[42px];
   }
@@ -56,4 +53,5 @@ a {
 /* p::selection {
   background: #dde940;
   color: #4ee19f1d;
+  bg-[#4ee19f12]
 } */

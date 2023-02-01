@@ -1,4 +1,5 @@
 import Head from "next/head";
+import AboutMe from "../components/AboutMe/AboutMe";
 import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
@@ -22,6 +23,7 @@ export default function Home() {
       <main>
         <Skills />
         <Projects />
+        <AboutMe />
       </main>
 
       <Footer />

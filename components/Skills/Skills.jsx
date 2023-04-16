@@ -2,6 +2,7 @@ const techs = [
   "HTML/CSS",
   "SASS",
   "Tailwindcss",
+  "MUI",
   "Javascript",
   "Typescript",
   "React.js",

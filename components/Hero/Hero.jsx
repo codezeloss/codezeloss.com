@@ -8,9 +8,9 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative flex justify-between items-center mt-32 3bp:mt-20 3bp:flex-col-reverse 3bp:gap-12 7bp:mt-12"
+      className="relative flex justify-between items-center my-56 3bp:my-20 3bp:flex-col-reverse 3bp:gap-12 7bp:my-20"
     >
-      <div className="flex flex-col 3bp:items-center 3bp:text-center">
+      <div className="z-[2] flex flex-col">
         <h1 className="max-w-[706px] mb-4 3bp:max-w-max">
           Hi There 👋!
           <br /> I&apos;m <span className="underline">Elhoussaine</span>.
@@ -21,7 +21,7 @@ const Hero = () => {
         <Button text="Contact me" />
       </div>
 
-      <div className="absolute right-0 z-[-1] 3bp:relative">
+      <div className="absolute right-0 z-[1] 3bp:relative">
         <div className="relative w-fit h-fit">
           <Image
             className="rounded-full w-[445px] h-[445px] z-[-1] 7bp:w-[245px] 7bp:h-[245px]"

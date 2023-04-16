@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>codezloss | Portfolio</title>
+        <title>codezeloss | Portfolio</title>
         <meta name="description" content="Codezeloss portfolio website" />
         <link rel="icon" href="/favicon.png" />
       </Head>

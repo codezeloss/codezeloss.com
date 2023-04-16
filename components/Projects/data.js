@@ -1,6 +1,19 @@
 export const data = [
   {
     id: 1,
+    image: "/assets/images/countries-preview.jpg",
+    title: "Countries Search App",
+    techs: {
+      tech1: "Typescript",
+      tech2: "Next.js",
+      tech3: "Tailwindcss",
+      tech4: "API",
+    },
+    live_url: "https://rest-countries-api-weld.vercel.app/",
+    code_url: "https://github.com/codezeloss/rest-countries-api",
+  },
+  {
+    id: 2,
     image: "/assets/images/photosnap-preview.jpg",
     title: "Photosnap website",
     techs: {
@@ -11,21 +24,20 @@ export const data = [
     live_url: "https://photosnap-multi-page-website-n4xu.vercel.app/",
     code_url: "https://github.com/codezeloss/photosnap-multi-page-website.git",
   },
-
   {
-    id: 2,
+    id: 3,
     image: "/assets/images/githubsearch-preview.jpg",
     title: "GitHub search app",
     techs: {
       tech1: "Reactjs",
       tech2: "Tailwindcss",
+      tech3: "API",
     },
     live_url: "https://aesthetic-maamoul-737009.netlify.app/",
     code_url: "https://github.com/elosscode/github-user-search-app.git",
   },
-
   {
-    id: 3,
+    id: 4,
     image: "/assets/images/planetsfacts-preview.jpg",
     title: "Planets Facts website",
     techs: {
@@ -37,7 +49,7 @@ export const data = [
     code_url: "https://github.com/elosscode/planets-fact-site.git",
   },
   {
-    id: 4,
+    id: 5,
     image: "/assets/images/payapi-preview.jpg",
     title: "Payapi website",
     techs: {
@@ -49,7 +61,7 @@ export const data = [
     code_url: "https://github.com/elosscode/payapi-multi-page-website.git",
   },
   {
-    id: 5,
+    id: 6,
     image: "/assets/images/miniportfolio-preview.jpg",
     title: "Miniportfolio website",
     techs: {
@@ -60,7 +72,7 @@ export const data = [
     code_url: "https://github.com/elosscode/minimalist-portfolio-website.git",
   },
   {
-    id: 6,
+    id: 7,
     image: "/assets/images/artgallery-preview.jpg",
     title: "Art Gallery website",
     techs: {
@@ -72,7 +84,7 @@ export const data = [
     code_url: "https://github.com/elosscode/art-gallery-website.git",
   },
   {
-    id: 7,
+    id: 8,
     image: "/assets/images/officelite-preview.jpg",
     title: "Officelite website",
     techs: {

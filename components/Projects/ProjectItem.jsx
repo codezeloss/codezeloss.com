@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const btnClasses = "uppercase text-white font-space-grotesk font-bold text-base pb-2.5 border-b-[2px] border-b-[#4EE1A0] z-[20] hover:text-[#4EE1A0]";
+const btnClasses =
+  "uppercase text-white font-space-grotesk font-bold text-base pb-2.5 border-b-[2px] border-b-[#4EE1A0] z-[20] hover:text-[#4EE1A0]";
 
-const btnClassesSm = "uppercase text-[#000] font-space-grotesk font-bold text-base pb-2.5 border-b-[2px] border-b-[#4EE1A0] z-[20] hover:text-[#4EE1A0] 6bp:text-sm";
+const btnClassesSm =
+  "uppercase text-white font-space-grotesk font-bold text-base pb-2.5 border-b-[2px] border-b-[#4EE1A0] z-[20] hover:text-[#4EE1A0] 6bp:text-sm";
 
 const ProjectItem = ({ src, title, techs, preview, code }) => {
   return (
@@ -18,38 +20,32 @@ const ProjectItem = ({ src, title, techs, preview, code }) => {
         />
         <div className="w-[100%] h-[100%] absolute bg-[#000]/[.75] flex flex-col justify-center items-center gap-[48px] z-[10] opacity-0 hover:opacity-100 3bp:hidden">
           <Link href={`${preview}`} target="_blank">
-            <button className={btnClasses}>
-              View Project
-            </button>
+            <button className={btnClasses}>View Project</button>
           </Link>
           <Link href={`${code}`} target="_blank">
-            <button className={btnClasses}>
-              View Code
-            </button>
+            <button className={btnClasses}>View Code</button>
           </Link>
         </div>
       </div>
 
       <div>
-       <p className="font-bold text-2xl 3bp:text-xl 6bp:text-lg">{title}</p>
-       <div  className="font-medium text-[#919191] text-lg flex gap-x-4 3bp:text-base 6bp:text-sm">
-        <p>{techs.tech1}</p>
-        <p>{techs.tech2}</p>
-        <p>{techs?.tech3}</p>
+        <p className="font-bold text-2xl 3bp:text-xl 6bp:text-lg">{title}</p>
+        <div className="font-medium text-[#d9d9d9] text-lg flex gap-x-4 3bp:text-base 6bp:text-sm">
+          <p>{techs?.tech1}</p>
+          <p>{techs?.tech2}</p>
+          <p>{techs?.tech3}</p>
+          <p>{techs?.tech4}</p>
+          <p>{techs?.tech5}</p>
         </div>
       </div>
 
-      <div className="hidden 3bp:flex text-[#000] gap-7 mt-5">
-      <Link href={`${preview}`} target="_blank">
-            <button className={btnClassesSm}>
-              View Project
-            </button>
-          </Link>
-          <Link href={`${code}`} target="_blank">
-            <button className={btnClassesSm}>
-              View Code
-            </button>
-          </Link>
+      <div className="hidden 3bp:flex gap-7 mt-5">
+        <Link href={`${preview}`} target="_blank">
+          <button className={btnClassesSm}>View Project</button>
+        </Link>
+        <Link href={`${code}`} target="_blank">
+          <button className={btnClassesSm}>View Code</button>
+        </Link>
       </div>
     </div>
   );

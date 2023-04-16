@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <section id="about-me" className="pt-12 mb-36 3bp:pt-0">
       <div className="flex justify-between items-center gap-12 3bp:flex-col 3bp:items-center">
-        <div className="max-w-[50%] 3bp:max-w-full 3bp:text-center">
+        <div className="max-w-[50%] 3bp:max-w-full">
           <h1 className="mb-11">About Me</h1>
           <p className="text mb-16 2bp:mb-8 3bp:max-w-[600px]">
             I&apos;m a{" "}

@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer id="contact" className="pt-12 3bp:pt-0">
       <div className="flex justify-between gap-12 mb-24 3bp:flex-col 3bp:items-center">
-        <div className="max-w-[445px] 3bp:max-w-[545px] 3bp:text-center">
+        <div className="max-w-[445px] 3bp:max-w-[545px]">
           <h1 className="mb-9">Contact</h1>
           <p className="text">
             I would love to hear about your project and how I could help. Please

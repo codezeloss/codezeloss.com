@@ -1,5 +1,5 @@
 import useInput from "/hooks/use-input";
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm, ValidationError } from "@formspree/react";
 
 const ContactForm = () => {
   const [state, handleSubmit] = useForm("mzbwwzkl");
@@ -55,10 +55,12 @@ const ContactForm = () => {
   // };
 
   if (state.succeeded) {
-    return <div className="text-center mt-24 mr-40 3bp:mt-0 3bp:mr-0">
-      <p className="text-5xl">📨</p>
-      <p className="text">Thank you!</p>
-      </div>;
+    return (
+      <div className="text-center mt-24 mr-40 3bp:mt-0 3bp:mr-0">
+        <p className="text-5xl">📨</p>
+        <p className="text">Thank you!</p>
+      </div>
+    );
   }
 
   return (
@@ -82,11 +84,7 @@ const ContactForm = () => {
           onBlur={nameBlurHandler}
         />
         {nameHasError && <p className="error-message mt-1">Name is required</p>}
-        <ValidationError 
-        prefix="Name" 
-        field="name"
-        errors={state.errors}
-        />
+        <ValidationError prefix="Name" field="name" errors={state.errors} />
       </div>
 
       <div>
@@ -107,18 +105,14 @@ const ContactForm = () => {
             Email is required, enter a valid email
           </p>
         )}
-        <ValidationError 
-        prefix="Email" 
-        field="email"
-        errors={state.errors}
-        />
+        <ValidationError prefix="Email" field="email" errors={state.errors} />
       </div>
 
       <div>
         <textarea
-          className={`min-h-[117px] inputClass ${messageHasError ? "error-border" : ""} ${
-            enteredMessage ? "valid-border" : ""
-          }`}
+          className={`min-h-[117px] inputClass ${
+            messageHasError ? "error-border" : ""
+          } ${enteredMessage ? "valid-border" : ""}`}
           type="text"
           placeholder="Message"
           id="message"
@@ -130,16 +124,20 @@ const ContactForm = () => {
         {messageHasError && (
           <p className="error-message mt-1">Message is required</p>
         )}
-        <ValidationError 
-        prefix="Message" 
-        field="message"
-        errors={state.errors}
+        <ValidationError
+          prefix="Message"
+          field="message"
+          errors={state.errors}
         />
       </div>
 
       {/* Submit Button */}
-      <button type="submit" disabled={!formIsValid} className="uppercase font-space-grotesk font-bold text-base pb-2.5 border-b-[2px] hover:border-b-[#4EE1A0]">
-        Submit Message
+      <button
+        type="submit"
+        disabled={!formIsValid}
+        className="uppercase font-space-grotesk font-bold text-base pb-2.5 border-b-[2px] hover:border-b-[#4EE1A0] tracking-[2.29px] cursor-pointer"
+      >
+        Send Message
       </button>
     </form>
   );

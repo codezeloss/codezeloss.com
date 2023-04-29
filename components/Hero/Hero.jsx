@@ -16,7 +16,7 @@ const Hero = () => {
           <br /> I&apos;m <span className="underline">Elhoussaine</span>.
         </h1>
         <p className="max-w-[50%] text text-2xl mb-16 2bp:mb-8 3bp:max-w-[600px]">
-          Frontend Developer
+          Junior Frontend Developer
         </p>
         <Button text="Contact me" />
       </div>

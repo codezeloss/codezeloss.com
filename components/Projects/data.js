@@ -71,28 +71,28 @@ export const data = [
     live_url: "https://serene-cheesecake-7c969e.netlify.app/",
     code_url: "https://github.com/elosscode/minimalist-portfolio-website.git",
   },
-  {
-    id: 7,
-    image: "/assets/images/artgallery-preview.jpg",
-    title: "Art Gallery website",
-    techs: {
-      tech1: "HTML",
-      tech2: "CSS",
-      tech3: "SCSS",
-    },
-    live_url: "https://codezeloss.github.io/art-gallery-website/",
-    code_url: "https://github.com/elosscode/art-gallery-website.git",
-  },
-  {
-    id: 8,
-    image: "/assets/images/officelite-preview.jpg",
-    title: "Officelite website",
-    techs: {
-      tech1: "HTML",
-      tech2: "CSS",
-      tech3: "SCSS",
-    },
-    live_url: "https://codezeloss.github.io/Officelite/",
-    code_url: "https://github.com/elosscode/Officelite.git",
-  },
+  // {
+  //   id: 7,
+  //   image: "/assets/images/artgallery-preview.jpg",
+  //   title: "Art Gallery website",
+  //   techs: {
+  //     tech1: "HTML",
+  //     tech2: "CSS",
+  //     tech3: "SCSS",
+  //   },
+  //   live_url: "https://codezeloss.github.io/art-gallery-website/",
+  //   code_url: "https://github.com/elosscode/art-gallery-website.git",
+  // },
+  // {
+  //   id: 8,
+  //   image: "/assets/images/officelite-preview.jpg",
+  //   title: "Officelite website",
+  //   techs: {
+  //     tech1: "HTML",
+  //     tech2: "CSS",
+  //     tech3: "SCSS",
+  //   },
+  //   live_url: "https://codezeloss.github.io/Officelite/",
+  //   code_url: "https://github.com/elosscode/Officelite.git",
+  // },
 ];

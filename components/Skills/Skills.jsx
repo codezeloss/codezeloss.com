@@ -3,7 +3,7 @@ const techs = [
   "TypeScript",
   "React.js",
   "NEXT.js",
-  "Tailwindcss",
+  "TailwindCSS",
   "Material UI",
   "Redux",
   "Git",

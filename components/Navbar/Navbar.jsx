@@ -54,7 +54,7 @@ const Navbar = () => {
           <Image
             className="w-[23.28px] h-[18.93px]"
             src={twitterIcon}
-            alt="Twitter"
+            alt="X / Twitter"
           />
         </Link>
       </div>

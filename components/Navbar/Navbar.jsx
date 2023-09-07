@@ -52,7 +52,7 @@ const Navbar = () => {
         </Link>
         <Link href="https://twitter.com/codezeloss" target="_blank">
           <Image
-            className="w-[23.28px] h-[18.93px]"
+            className="w-[28px] h-[24px]"
             src={twitterIcon}
             alt="X / Twitter"
           />

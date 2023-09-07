@@ -11,9 +11,7 @@ const AboutMe = () => {
         <div className="max-w-[50%] 3bp:max-w-full">
           <h1 className="mb-11">About Me</h1>
           <p className="text mb-16 2bp:mb-8 3bp:max-w-[600px]">
-            I&apos;m a{" "}
-            <span className="font-bold text-xl">Frontend developer,</span> I
-            convert designs & ideas to code. React/Nextjs are the technologies I
+            I convert designs & ideas to code. React/Nextjs are the technologies I
             love to work with. I code responsive websites/apps from scratch and
             contribute to existing projects.
             <br />
@@ -28,7 +26,7 @@ const AboutMe = () => {
               className="w-auto h-auto 7bp:w-auto 7bp:h-auto"
               src={codezeloss}
               alt="Codezeloss"
-              priority
+              priority={true}
             />
           </div>
         </div>

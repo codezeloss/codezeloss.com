@@ -16,7 +16,7 @@ const Hero = () => {
           <br /> I&apos;m <span className="underline">Elhoussaine</span>.
         </h1>
         <p className="max-w-[50%] text text-2xl mb-16 2bp:mb-8 3bp:max-w-[600px]">
-          Junior Frontend Developer
+          Frontend Developer
         </p>
         <Button text="Contact me" />
       </div>
@@ -27,7 +27,7 @@ const Hero = () => {
             className="rounded-full w-[445px] h-[445px] z-[-1] 7bp:w-[245px] 7bp:h-[245px]"
             src={codezeloss}
             alt="Codezeloss"
-            priority
+            priority={true}
           />
           <div className="absolute w-fit h-fit bottom-[20px] right-[300px] z-[-5] 7bp:right-[170px]">
             <Image

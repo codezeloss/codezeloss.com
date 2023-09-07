@@ -16,7 +16,7 @@ const ProjectItem = ({ src, title, techs, preview, code }) => {
           src={src}
           alt="Project image"
           fill
-          priority
+          priority={true}
         />
         <div className="w-[100%] h-[100%] absolute bg-[#000]/[.75] flex flex-col justify-center items-center gap-[48px] z-[10] opacity-0 hover:opacity-100 3bp:hidden">
           <Link href={`${preview}`} target="_blank">

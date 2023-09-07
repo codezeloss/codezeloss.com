@@ -50,7 +50,7 @@ const Navbar = () => {
             alt="Linkedin"
           />
         </Link>
-        <Link href="https://twitter.com/codezeloss" target="_blank">
+        <Link href="https://x.com/codezeloss" target="_blank">
           <Image
             className="w-[28px] h-[24px]"
             src={twitterIcon}
